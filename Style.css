@@ -1,0 +1,160 @@
+.bgimages{
+    background: url('./1.jpeg');
+    height: 100vh;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.background{
+    background-color:lightseagreen; opacity: 0.8;
+    max-width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: underline;
+    text-decoration: bold;
+    color:black;
+}
+.centered h1{
+    line-height: 2;
+}
+li{
+    list-style-type: none;
+    padding: 0%;
+    margin: 0%;
+}
+.menu{
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 130%;
+}
+#manu{
+    color: whitesmoke;
+}
+#Profile{
+    text-align: center;
+    width: 100%;
+}
+#Profileimage{
+    height: 200px;
+    line-height: 2;
+}
+#Prtext{
+    color:lightseagreen;
+    font-size: 300%;
+    line-height: 2;
+}
+#text{
+    line-height: 3;
+}
+.col1{
+    width: 20%;
+    height: 100%;
+    text-align: left;
+    line-height: 2;
+}
+#Header{
+    font-size:30px;
+    color: lightseagreen;
+    line-height: 3;
+}
+.line-space{
+    padding: 20px;
+}
+#Ex{
+    font-size: 60px;
+    color: lightseagreen;
+    text-align: center;
+    line-height: 1;
+    padding: 40px;
+}
+#Pr{
+    text-align: center;
+}
+#Experience{
+    background-color:ivory;
+    line-height: 1;
+}
+.gly-color{
+    color: lightseagreen;
+    font-size: 15px;
+    margin-right: 20px;
+}
+@media (max-width:767px){
+    .hidden-mobile{
+        display: none;
+    }
+}
+#glyphicon{
+    color: lightseagreen;
+}
+#responsive{
+   width: 70%;
+   margin-left: 15%;
+}
+#head{
+    text-align: left;
+    color: lightseagreen;
+    line-height: 2;
+}
+.Star{
+    float: right;
+    color: lightseagreen;
+}
+#firsttd{
+    width: 30%;
+}
+#Pr1{
+    text-align: center;
+    white-space:pre-line;
+}
+#head2{
+    text-align: center;
+    color:whitesmoke;
+}
+.space-left{
+    text-align: left !important;
+    line-height: 2 !important;
+}
+#space{
+    padding: 30px;
+}
+ul:hover, ul:active .star{
+    background: lightgray;
+    font-size: 18px;
+    position: sticky;
+}
+#Contact{
+    background-color: gray;
+    padding: 30px;
+}
+#conpr{
+    text-align: center;
+    color:black;
+}
+#social{
+    text-align: center;
+    margin: 30px;
+}
+@media (max-width:767px){
+    .left-mobile{
+        text-align: left !important;
+    }
+}
+.fa{
+    font-size: 110% !important;
+    line-height: 2 !important;
+}
+a{
+    color: black;
+}
+a.ex1:hover, a.ex1:active{
+    color: white;
+}
